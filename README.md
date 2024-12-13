@@ -49,13 +49,19 @@ The **Skill Circle Library Management System** is a simple command-line applicat
 ## Screenshots
 
 ### Welcome Screen
-![Welcome Screen](https://via.placeholder.com/800x400.png?text=Welcome+to+Skill+Circle+Library+Management+System)
+![Welcome Screen](https://github.com/user-attachments/assets/fa320ea1-dc92-4501-8d4d-e0d592d571bc)
+
 
 ### Available Books
-![Available Books](https://via.placeholder.com/800x400.png?text=Available+Books)
+![Available Books](https://github.com/user-attachments/assets/147a8683-36ac-47c0-9ff9-b2fc9b9d50f9)
 
-### Book Details
-![Book Details](https://via.placeholder.com/800x400.png?text=Book+Details)
+
+###  User Input Screen
+![user](https://github.com/user-attachments/assets/a1934748-f4b9-4556-be1c-ba2445eecb96)
+
+### Out put screen
+![Full screen ](https://github.com/user-attachments/assets/edf6f522-2a1f-4e6a-9f7c-9d5154bd000f)
+
 
 ---
 
