@@ -1,29 +1,24 @@
-# Bank Management System
+# Skill Circle Library Management System
 
 ## Description
-The **Bank Management System** is a simple desktop application built using Python's Tkinter library and MySQL. This project allows users to create accounts, log in, and perform basic banking operations such as deposits and withdrawals.
+The **Skill Circle Library Management System** is a simple command-line application written in Python. It allows users to view a list of available books and get detailed information about each book. Users can choose to continue exploring or exit the application.
 
 ---
 
 ## Features
-- **User Account Management**: Create new user accounts and store them securely in a MySQL database.
-- **Login System**: Authenticate users with username and password.
-- **Deposit Funds**: Add money to user accounts.
-- **Withdraw Funds**: Safely withdraw money, ensuring sufficient balance.
-- **Real-Time Balance Update**: Display the updated account balance after every transaction.
+- Display a list of books with their unique book numbers.
+- Provide detailed information about a selected book.
+- Option to continue browsing or exit the system.
 
 ---
 
 ## Technologies Used
-- **Python** (Tkinter for GUI development)
-- **MySQL** (for database management)
+- **Python**
 
 ---
 
 ## Prerequisites
 - Python 3.x installed on your system.
-- MySQL server running locally or on a remote server.
-- Python libraries: `tkinter`, `mysql-connector-python`
 
 ---
 
@@ -31,67 +26,44 @@ The **Bank Management System** is a simple desktop application built using Pytho
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/bank-management-system.git
-   cd bank-management-system
+   git clone https://github.com/your-username/library-management-system.git
+   cd library-management-system
    ```
 
-2. **Set Up the Database**:
-   - Open MySQL Workbench or any MySQL client.
-   - Run the following commands to create the database and table:
-     ```sql
-     CREATE DATABASE bank_management;
-     USE bank_management;
-
-     CREATE TABLE users (
-         id INT AUTO_INCREMENT PRIMARY KEY,
-         username VARCHAR(255) NOT NULL UNIQUE,
-         password VARCHAR(255) NOT NULL,
-         balance FLOAT DEFAULT 0.0
-     );
-     ```
-
-3. **Install Dependencies**:
-   - Install the required Python libraries:
-     ```bash
-     pip install mysql-connector-python
-     ```
-
-4. **Configure Database Connection**:
-   - Update the database credentials in the script:
-     ```python
-     connection = mysql.connector.connect(
-         host="localhost",
-         user="your-username",
-         password="your-password",
-         database="bank_management"
-     )
-     ```
-
-5. **Run the Application**:
+2. **Run the Application**:
    ```bash
-   python main.py
+   python library_system.py
    ```
 
 ---
 
 ## Usage
 
-1. Launch the application.
-2. Use the **Create Account** button to register a new user.
-3. Log in with your credentials.
-4. Use the dashboard to:
-   - Check your account balance.
-   - Deposit funds.
-   - Withdraw funds.
+1. Launch the application by running the Python script.
+2. View the list of available books.
+3. Enter the book number to get detailed information about a specific book.
+4. Choose to continue exploring or exit the application.
+
+---
+
+## Screenshots
+
+### Welcome Screen
+![Welcome Screen](https://via.placeholder.com/800x400.png?text=Welcome+to+Skill+Circle+Library+Management+System)
+
+### Available Books
+![Available Books](https://via.placeholder.com/800x400.png?text=Available+Books)
+
+### Book Details
+![Book Details](https://via.placeholder.com/800x400.png?text=Book+Details)
 
 ---
 
 ## File Structure
 ```
 project-directory/
-├── main.py              # The main script to run the application
+├── library_system.py    # The main script to run the application
 ├── README.md            # This README file
-└── requirements.txt     # List of dependencies (if required)
 ```
 
 ---
@@ -112,10 +84,9 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ---
 
 ## Acknowledgments
-- Thanks to [OpenAI](https://openai.com) for assistance in creating this README.
-- Inspired by Python and MySQL integration tutorials.
+- Inspired by Python programming tutorials.
 
 ---
 
 ## Download
-[Download the Project](https://github.com/your-username/bank-management-system/archive/refs/heads/main.zip)
+[Download the Project](https://github.com/your-username/library-management-system/archive/refs/heads/main.zip)
